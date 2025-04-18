@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>weather api</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <!-- weather input field search -->
+        <div class="weather_header">
+            <form class="weater_search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="city_name" placeholder="search your city">
+
+            </form>
+        </div>
+        <!-- weather main data -->
+        <div class="weather_body">
+            <h1 class="weather_city">London United Kingdom</h1>
+            <p class="weather_date_time">friday,februry 23 2024 at 10:37 AM
+            </p>
+            <div class="weather_data">
+                <p class="weather_forcast">Cloud</p>
+                <div class="weather_icon">
+                    <i class="fa-solid fa-cloud"></i>
+                </div>
+            </div>
+            <p class="weather_temperture">15&#176</p>
+            <div class="weather_minmax">
+                <p class="weather_min">min 277&#176</p>
+                <p class="weather_max">max 280&#176</p>
+            </div>
+        </div>
+        <!-- weather extra data -->
+         <section class="weather_info">
+            <div class="weather_card">
+                <i class="fa-solid fa-temperature-three-quarters"></i>
+                <p>Feels Like</p>
+                <p class="weather_feelslike">15&#176</p>
+            </div>
+            <div class="weather_card">
+                <i class="fa-solid fa-droplet"></i>
+                <p>Humidity</p>
+                <p class="weather_humidity">15%</p>
+            </div>
+            <div class="weather_card">
+                <i class="fa-solid fa-wind"></i>
+                <p>Wind</p>
+                <p class="weather_wind">15m/s</p>
+            </div>
+            <div class="weather_card">
+                <i class="fa-solid fa-gauge-high"></i>
+                <p>Pressure</p>
+                <p class="weather_pressure">998hpa</p>
+            </div>
+         </section>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
